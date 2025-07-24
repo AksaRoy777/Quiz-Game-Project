@@ -1,4 +1,4 @@
-OUIZ GAME PROJECT
+# OUIZ GAME PROJECT
 
 This is a Java-based quiz game created as part of my 15-day internship project at Learn and Build. The purpose of this project was to apply basic Java programming concepts and understand how to work with external APIs and JSON data.
 
