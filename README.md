@@ -2,6 +2,19 @@
 
 This is a Java-based quiz game created as part of my 15-day internship project at Learn and Build. The purpose of this project was to apply basic Java programming concepts and understand how to work with external APIs and JSON data.
 
+# Project Layout
+
+QuizGame/
+├── src/
+│   ├── Main.java
+│   ├── ApiClient.java
+│   ├── Question.java
+│   └── QuestionService.java
+├── lib/
+│   └── json-simple-1.1.1.jar
+├── README.md
+└── quiz_results.txt
+
 # Project Description
 
 The project is a *console-based quiz application* built using Java. It uses the [Open Trivia Database API](https://opentdb.com/) to fetch quiz questions in real time. The game allows the user to:
@@ -20,7 +33,6 @@ The user must enter their answer within this time.
 - Answers entered after time runs out are not accepted.
 
 # Final Score
-
 At the end of the quiz:
 
 - The total score is shown.
